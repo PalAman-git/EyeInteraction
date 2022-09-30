@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+.whiteBoxes{
+    position:absolute;
+}
+.whitebox{
+    /* border: 2px solid red ; */
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    top: 0px;
+    left: 0px;
+}
+.main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.eyes,.eye{
+    position: absolute;
+}
+.Morty{
+    width: 100%;
+}
+.eye{
+    width: 55px;
+}
